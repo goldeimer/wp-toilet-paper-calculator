@@ -20,7 +20,7 @@ final class WpToiletPaperCalculator
 {
     use Singleton;
 
-    private static WebpackAssetLoader $loader;
+    private static $loader;
 
     final public function __construct()
     {
