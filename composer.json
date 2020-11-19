@@ -1,0 +1,17 @@
+{
+    "name": "goldeimer/wp-toilet-paper-calculator",
+    "type": "wordpress-plugin",
+    "description": "Goldeimer's \"Toilet Paper Calculator\" as a WordPress plugin",
+    "require": {
+        "composer/installers": "^1.8",
+        "goldeimer/php-util": "^0.2",
+        "goldeimer/wp-util": "^0.2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.2-dev"
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "author": "Goldeimer gemeinnützige GmbH <post@goldeimer.de>",
+    "browserslist": "extends @goldeimer/browserslist-config",
+    "bugs": {
+        "email": "engineering+bugs@goldeimer.de",
+        "url": "https://github.com/Goldeimer/goldeimer/issues"
+    },
+    "contributors": [
+        "Manou Otolski <manou@goldeimer.de>",
+        "Johannes Pilkahn <johannes@goldeimer.de>"
+    ],
+    "dependencies": {
+        "@goldeimer/toilet-paper-calculator": "^0.0.1"
+    },
+    "description": "Goldeimer's \"Toilet Paper Calculator\" as a WordPress plugin",
+    "devDependencies": {
+        "@goldeimer/webpack-config": "^0.0.1"
+    },
+    "homepage": "https://github.com/Goldeimer/goldeimer/packages/wp-toilet-paper-calculator#readme",
+    "keywords": [
+        "goldeimer",
+        "toilet-paper-calculator",
+        "klopapier-rechner",
+        "kackulator"
+    ],
+    "license": "BSD-2-Clause",
+    "name": "@goldeimer/wp-toilet-paper-calculator",
+    "private": true,
+    "repository": {
+        "directory": "packages/wordpress/toilet-paper-calculator",
+        "type": "git",
+        "url": "git+https://github.com/Goldeimer/goldeimer.git"
+    },
+    "scripts": {
+        "build": "yarn build:prod",
+        "build:dev": "webpack --mode development",
+        "build:prod": "webpack --mode production",
+        "lint": "eslint src --ext .js --ext .jsx",
+        "lint:fix": "eslint src --fix --ext .js --ext .jsx",
+        "test": "env NODE_ENV=test echo \"Error: no test specified\" && exit 1"
+    },
+    "version": "0.0.1"
+}
