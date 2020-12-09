@@ -1,0 +1,17 @@
+{
+    "entrypoints": {
+        "wp-toilet-paper-calculator": {
+            "js": [
+                "js/goldeimer-runtime~wp-toilet-paper-calculator.cjs.js",
+                "js/goldeimer-536.cjs.js",
+                "js/goldeimer-880.cjs.js",
+                "js/goldeimer-589.cjs.js",
+                "js/goldeimer-133.cjs.js",
+                "js/goldeimer-130.cjs.js",
+                "js/goldeimer-wp-toilet-paper-calculator.cjs.js"
+            ]
+        }
+    },
+    "runtime~wp-toilet-paper-calculator.js": "js/goldeimer-runtime~wp-toilet-paper-calculator.cjs.js",
+    "wp-toilet-paper-calculator.js": "js/goldeimer-wp-toilet-paper-calculator.cjs.js"
+}

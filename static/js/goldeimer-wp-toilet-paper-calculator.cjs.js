@@ -1,0 +1,2 @@
+(self.webpackChunk_goldeimer_wp_toilet_paper_calculator=self.webpackChunk_goldeimer_wp_toilet_paper_calculator||[]).push([[703],{65510:(e,t,a)=>{"use strict";var l=a(25223);var o;o=()=>{(0,l.bL)()},"loading"!==document.readyState?o():document.addEventListener("DOMContentLoaded",o)},12993:()=>{},97694:()=>{}},0,[[65510,711,536,880,589,133,130]]]);
+//# sourceMappingURL=goldeimer-wp-toilet-paper-calculator.cjs.js.map
