@@ -2,7 +2,7 @@
     "description": "Goldeimer's \"Toilet Paper Calculator\" as a WordPress plugin",
     "extra": {
         "branch-alias": {
-            "dev-master": "0.2-dev"
+            "dev-master": "0.3-dev"
         }
     },
     "license": "BSD-2-Clause",
